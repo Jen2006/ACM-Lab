@@ -13,7 +13,8 @@
 # get-process sq*| 
 # format-table -groupby processname
 
-get-process svc* | 
-format-table @{expression="processname"; width=20; label="Process Name"},
-@{expression="ID"; width=10; label = "ID"},
-@{expression = "handlecount"; width=10; label = "Handle Count"}|more
+# get-process svc* | 
+# format-table @{expression="processname"; width=20; label="Process Name"},
+# @{expression="ID"; width=10; label = "ID"},
+# @{expression = "handlecount"; width=10; label = "Handle Count"}|more
+
