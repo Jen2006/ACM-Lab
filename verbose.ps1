@@ -1,0 +1,1 @@
+New-Item -Path "C:\Temp\VerboseFolder" -ItemType Directory -Verbose
