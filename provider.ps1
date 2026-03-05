@@ -1,9 +1,9 @@
 # List all providers
-# Get-PSProvider
+Get-PSProvider
 
 # Access Registry
-# Set-Location HKCU:\Software
-# Get-ChildItem
+Set-Location HKCU:\Software
+Get-ChildItem
 
 # # Access Environment Variables
 Set-Location Env:
